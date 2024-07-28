@@ -1,0 +1,18 @@
+.imagenSistemaOperativo{
+    height: 15em;
+    display: block;
+    margin: auto;
+}
+#sistemasoperativoslinux {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombreDelSistemaOperativo, .descripcionDelSistemaOperativo{
+    display: grid;
+    place-content: center;
+}
